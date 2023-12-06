@@ -27,10 +27,7 @@ SuperAuth.help = 'https://eulerity.com';
 SuperAuth.inputs = [
     InputField('email', 'Email', 'String'),
     InputField('password', 'Password', 'SecureValue'),
-    InputField('firebaseApiKey', 'Firebase API Key', 'String', {
-        persisted: true,
-        defaultValue: 'AIzaSyBNW2VNKcSzm5DqMXm0HSgdRVAS2-8470Q',
-    })
+    InputField('firebaseApiKey', 'Firebase API Key', 'String')
 ];
 
 registerDynamicValueClass(SuperAuth);
